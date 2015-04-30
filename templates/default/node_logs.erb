@@ -1,0 +1,10 @@
+#
+#
+#
+
+Opsworks Node Report <% node[:opsworks][:instance][:hostname] %> 
+Opsworks Instance Attributes:
+<% node[:opsworks][:instance].each do |att, val| %>
+  <%= att %>:<%= val %>
+<% end %>
+
