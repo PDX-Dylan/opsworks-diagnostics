@@ -1,8 +1,8 @@
 name             'opsworks-diagnostics'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Stephanie King'
+maintainer_email 'sudosteph@gmail.com'
 license          'All rights reserved'
-description      'Installs/Configures opsworks-diagnostics'
-long_description 'Installs/Configures opsworks-diagnostics'
-version          '0.1.0'
+description      'Performs diagnostics on Opsworks instances and uploads to S3'
+long_description 'Performs diagnostics on Opsworks instances and uploads to S3'
+version          '0.2.0'
 

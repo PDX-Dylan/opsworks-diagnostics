@@ -4,7 +4,10 @@ This cookbook gathers Opsworks-related logs, and the output of troubleshooting c
 
 ## Supported Platforms
 
-Amazon Linux 2015.03
+Opsworks platform, tested on chef 11.10 for Opsworks
+
+Amazon Linux (tested up to) 2015.03
+
 Ubuntu Linux 14.04
 
 ## Attributes
