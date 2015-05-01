@@ -10,11 +10,11 @@ default[:opsworks_diagnostics][:log_file] = "opsworks-diagnostics.log"
 default[:opsworks_diagnostics][:include_agent_logs] = false
 
 #full path to existing logs which can be bundled on upload, ex: /var/log/messages, /var/log/httpd/*, /var/lib/aws/opsworks/chef/*
-default[:opsworks_diagnostics][:other_logs] = ["/var/log/messages","/var/lib/aws/opsworks/chef/*"]
+default[:opsworks_diagnostics][:other_logs] = ["/var/lib/aws/opsworks/chef/*"]
 
 #Set to true only if you do NOT want to upload to S3. You will need to log onto the instance to retreive logs manually with this enabled.
 default[:opsworks_diagnostics][:local_mode] = false
 
 # S3 Upload location
-default[:opsworks_diagnostics][:s3][:bucket] = "stepking-opsworks"
+default[:opsworks_diagnostics][:s3][:bucket] = "somefakebucketIown"
 default[:opsworks_diagnostics][:s3][:key_prefix] = "owlogs"

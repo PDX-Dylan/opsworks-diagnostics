@@ -41,7 +41,7 @@ Ubuntu Linux 14.04
     <td><tt>['opsworks_diagnostics']['other_logs']</tt></td>
     <td>List of strings</td>
     <td>List with each item as a full path to other logs to bundle (ex: /var/log/messages, /var/lib/aws/opsworks/chef/*)</td>
-    <td><tt>[""]</tt></td>
+    <td><tt>["/var/lib/aws/opsworks/chef"]</tt></td>
   </tr>
     <tr>
     <td><tt>['opsworks_diagnostics'][':local_mode']</tt></td>
